@@ -189,8 +189,8 @@
                 
                   Grados.Numeros[0].forEach(element => {
                     //audio1= new Audio("../NotesWavs/"+element+".wav");
-                    //audio1= new Audio("https://github.com/JoseAntillan/LatinJam2/blob/main/NotesWavs/"+element+".wav?raw=true");
-                    audio1= new Audio("/NotesWavs/"+element+".wav");
+                    audio1= new Audio("https://raw.githubusercontent.com/JoseAntillan/UrbanGrooveTest/main/NotesWavs/"+element+".wav");
+               
                     audio1.play();
                   });
              
@@ -207,8 +207,7 @@
 
                   Grados.Numeros[1].forEach(element => {
                     //audio1= new Audio("../NotesWavs/"+element+".wav");
-                    //audio1= new Audio("https://github.com/JoseAntillan/LatinJam2/blob/main/NotesWavs/"+element+".wav?raw=true");
-                    audio1= new Audio("/NotesWavs/"+element+".wav");
+                    audio1= new Audio("https://raw.githubusercontent.com/JoseAntillan/UrbanGrooveTest/main/NotesWavs/"+element+".wav");
                     audio1.play();
                   });
                
@@ -221,8 +220,8 @@
 
                   Grados.Numeros[2].forEach(element => {
                     //let audio1= new Audio("../NotesWavs/"+element+".wav");
-                    //let audio1= new Audio("https://github.com/JoseAntillan/LatinJam2/blob/main/NotesWavs/"+element+".wav?raw=true");
-                    let audio1= new Audio("/NotesWavs/"+element+".wav");
+                    let audio1= new Audio("https://raw.githubusercontent.com/JoseAntillan/UrbanGrooveTest/main/NotesWavs/"+element+".wav");
+                  
                     audio1.play();
                   });
                
@@ -235,8 +234,7 @@
 
                   Grados.Numeros[3].forEach(element => {
                     //let audio1= new Audio("../NotesWavs/"+element+".wav");
-                    //let audio1= new Audio("https://github.com/JoseAntillan/LatinJam2/blob/main/NotesWavs/"+element+".wav?raw=true");
-                    let audio1= new Audio("/NotesWavs/"+element+".wav");
+                    let audio1= new Audio("https://raw.githubusercontent.com/JoseAntillan/UrbanGrooveTest/main/NotesWavs/"+element+".wav");
                     audio1.play();
                   });
                  
