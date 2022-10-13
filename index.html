@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nuevodiseño.css">
+    <link rel="stylesheet" href="boton.css">
+    <link rel="stylesheet" href="mayorMinor.css">
+    <link rel="stylesheet" href="piano.css">
+    <link rel="stylesheet" href="switch.css">
+    <link rel="stylesheet" href="lista.css">
+
+<script src="https://cdn.jsdelivr.net/npm/jzz"></script>
+<script src="https://cdn.jsdelivr.net/npm/jzz-midi-smf"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+   
+    <section class="section">
+        
+        <div>
+            <input class="notaraiz" type="radio" name="notaraiz" id="C" value="1" checked>
+            <label class="for-notaraiz" for="C">
+          
+                C <br>
+                -
+                <br>
+                    
+                DO
+            </label>
+
+
+            <input class="notaraizB" type="radio" name="notaraiz" id="C#" value="2">
+            <label class="for-notaraizB" for="C#">
+                    C# <br>
+                    -
+                    <br>
+                        
+                    DO#
+                
+            </label>
+
+
+
+            <input class="notaraiz" type="radio" name="notaraiz" id="D" value="3">
+            <label class="for-notaraiz" for="D">
+          
+                D <br>
+                -
+                <br>
+                    
+                RE
+            </label>
+
+
+            <input class="notaraizB" type="radio" name="notaraiz" id="D#" value="4">
+            <label class="for-notaraizB" for="D#">
+                    D# <br>
+                    -
+                    <br>
+                        
+                    RE#
+                
+            </label>
+
+
+
+            <input class="notaraiz" type="radio" name="notaraiz" id="E" value="5">
+            <label class="for-notaraiz" for="E">
+          
+                E <br>
+                -
+                <br>
+                    
+                MI
+            </label>
+
+            <input class="notaraiz" type="radio" name="notaraiz" id="F" value="6">
+            <label class="for-notaraiz" for="F">
+          
+                F <br>
+                -
+                <br>
+                    
+                FA
+            </label>
+
+
+            <input class="notaraizB" type="radio" name="notaraiz" id="F#" value="-6">
+            <label class="for-notaraizB" for="F#">
+          
+                F# <br>
+                -
+                <br>
+                    
+                FA#
+            </label>
+
+
+
+            <input class="notaraiz" type="radio" name="notaraiz" id="G" value="-5">
+            <label class="for-notaraiz" for="G">
+          
+                G <br>
+                -
+                <br>
+                    
+                SOL
+            </label>
+
+
+
+            <input class="notaraizB" type="radio" name="notaraiz" id="G#" value="-4">
+            <label class="for-notaraizB" for="G#">
+          
+                G# <br>
+                -
+                <br>
+                    
+                SOL#
+            </label>
+
+
+            <input class="notaraiz" type="radio" name="notaraiz" id="A" value="-3">
+            <label class="for-notaraiz" for="A">
+          
+                A <br>
+                -
+                <br>
+                    
+                LA
+            </label>
+
+
+
+            <input class="notaraizB" type="radio" name="notaraiz" id="A#" value="-2">
+            <label class="for-notaraizB" for="A#">
+          
+                A# <br>
+                -
+                <br>
+                    
+                LA#
+            </label>
+
+
+            <input class="notaraiz" type="radio" name="notaraiz" id="B" value="-1">
+            <label class="for-notaraiz" for="B">
+          
+                B <br>
+                -
+                <br>
+                    
+                SI
+            </label>
+
+
+
+            
+            <div class="box">
+                    <input type="checkbox" id="lock">
+                    <label for="lock"><i></i></label>
+            </div>
+        
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section over-hide z-bigger">
+        <label></label>
+        <div></div>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        
+                    </div>
+                    <div>
+                        <input class="checkbox-tools" type="radio" name="Progresion" id="tool-1" disabled="true" checked>
+                        <label class="for-checkbox-tools" for="tool-1" id="Acorde1">
+                       
+                            VIM7
+                          
+                        </label>
+                        <input class="checkbox-tools" type="radio" name="Progresion" id="tool-2" disabled="true">
+                        <label class="for-checkbox-tools" for="tool-2" id="Acorde2">
+                         
+                            IIdim
+                                
+                        </label>
+                        
+                        <input class="checkbox-tools" type="radio" name="Progresion" id="tool-3" disabled="true">
+                        <label class="for-checkbox-tools" for="tool-3" id="Acorde3">
+                      
+                            Vm7
+                        </label>
+                        <input class="checkbox-tools" type="radio" name="Progresion" id="tool-4" disabled="true">
+                        <label class="for-checkbox-tools" for="tool-4" id="Acorde4">
+                      
+                            VIM7
+                        </label>
+
+
+                    </div>
+
+
+                        
+                    
+                  
+                </div>
+            </div>	
+        </div>
+    </div>
+
+
+
+    <!--
+
+       
+    <section class="section">
+        <div>
+        <input class="checkbox-tipo" type="radio" name="mm" id="minor" value="0">
+        <label class="for-checkbox-tipo" for="minor">
+      
+            minor
+        </label>
+        <input class="checkbox-tipo" type="radio" name="mm" id="mayor" value="1">
+
+
+        </div>
+    </section>
+ -->
+
+
+	
+
+	        <div class="section">
+	          <button onclick="Generar()" class="btn">GENERAR</button>
+	        </div>
+	    </section>
+	
+
+
+
+        <section>
+            <div class = "DivHistorial">
+
+
+            <h1>Historial</h1>
+              <ul id="historial">
+
+              </ul>
+
+
+
+            </div>
+        </section>
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://css.gg/software-download.css');
+@import url('https://css.gg/play-button-o.css');
+
+#historial {
+    display: inline-block;
+    text-align: left;
+    background-color: aliceblue;
+    width: 700px;
+}
+
+
+
+.DivHistorial{
+    text-align: center;
+
+}
+
+.btn-descarga {
+    
+
+}
+
+.div-play{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+
+}
+
+.btn-play {
+   color: rgba(16, 170, 11, 0.692);
+   background-color: rgba(255, 255, 255, 0);
+    border: none;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+
+
+}
+
+.btn-play:hover {
+    color: rgba(226, 29, 200, 0.692);
+    background-color: rgba(255, 255, 255, 0);
+     border: none;
+ 
+ 
+ }
+
+ li {
+    display:flex;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+  }
+
+  li p {
+    flex: 1;
+  }
+  li div {
+   flex: 2;
+   width:100%;
+  }
+  
+  li div button {
+   width:100%;
+  }
+  
+  .with-flex {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }

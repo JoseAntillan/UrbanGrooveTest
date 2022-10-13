@@ -1,0 +1,63 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+.center{
+  width: 640px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center2{
+width: 440px;
+height: 200px;
+margin: 0 auto;
+text-align: center;
+}
+
+
+
+.acorde{ 
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: -3px;
+  text-indent: 10px;
+  background-color: #fafafa;
+  border-radius: 0px;
+  color: #73767C;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  -webkit-box-shadow: 7px 13px 36px -6px rgba(0,0,0,0.27);
+  -moz-box-shadow: 7px 13px 36px -6px rgba(0,0,0,0.27);
+  box-shadow: 7px 13px 36px -6px rgba(0,0,0,0.27);
+  
+
+}
+
+
+.acordeElegido{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: -3px;
+  text-indent: 10px;
+  background-color: #FF299C;
+  color: #f5f5f5;
+  font-size: 15px;
+  -webkit-box-shadow: 7px 13px 36px -6px rgba(0,0,0,0.27);
+  -moz-box-shadow: 7px 13px 36px -6px rgba(0,0,0,0.27);
+  box-shadow: 7px 13px 36px -6px rgba(0,0,0,0.27);
+
+}
+
