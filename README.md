@@ -10,6 +10,7 @@ Es la herramienta ideal para crear los pilares de una composicion musical modern
 
 # Tecnologias
 - [Jazz-Plugin](https://jazz-soft.net/) (Para crear el archivo midi descargable)
+- [Api-Rest propia](https://chordgeneratormidi.herokuapp.com/) (Para generar una progresion al azar)
 
 ### Contacto
 Sugiera características, problemas de soporte de archivos o póngase en contacto por cualquier motivo:
