@@ -347,7 +347,7 @@
           */  
   const a = document.createElement('a');
   a.href = uri;
-  a.download = "UrbanGrooves";
+  a.download = "UrbanGrooves (Scale: "+objetojson.Root+" Minor)";
   document.body.appendChild(a);
   a.click()
   document.body.removeChild(a);
